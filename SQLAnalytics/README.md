@@ -1,10 +1,10 @@
-List the names of the tasters. Show only the distinct values.
-Which wine (ID, country, province, and the price) has the highest price?
-We know that the title of a review starts with Tommasi 2001 …, but we do not know the rest of the title. What is the taster’s name and full title of the review that its title starts with Tommasi 2001?
-In which wineries in the province (state) of California the average price of wine is more than 100? Show the results in descending order by the average price. Show the averaged column as average_wine_price. Show the results in descending order.
-List the top three wineries with the highest average review points. Show the averaged column as average_review_points.
-How many of the reviews are by the wine taster Jim Gordon? Show the count of reviews as Gordon_review_count.
-What kinds of wine (variety) are available in the province (state) of Oregon? Show the distinct varieties in the results.
-There are missing values in the fields price and region_1 in the table wine. Following the case-wise approach, write a query that will retrieve all the records from the wine table without any missing values in those two columns. Only show 10 records in the results.
-We would like to assign wines to different groups so that we can describe wine varieties based on their prices. The wine varieties that cost 1-50 dollars (inclusive limits) will be in the group cheap, wines that are priced 50-100 (include the upper limit) will be labelled mid-priced, and wines priced more than 100 will be labelled expensive. Use the CASE statements to show the price groups and name the CASE column as price_groups. In the output table show province, variety, and price in addition to the CASE column. Show the first 15 records. Make sure that wines that are priced 0 do not show in the results.
+List the names of the tasters. Show only the distinct values.\
+Which wine (ID, country, province, and the price) has the highest price?\
+We know that the title of a review starts with Tommasi 2001 …, but we do not know the rest of the title. What is the taster’s name and full title of the review that its title starts with Tommasi 2001?\
+In which wineries in the province (state) of California the average price of wine is more than 100? Show the results in descending order by the average price. Show the averaged column as average_wine_price. Show the results in descending order.\
+List the top three wineries with the highest average review points. Show the averaged column as average_review_points.\
+How many of the reviews are by the wine taster Jim Gordon? Show the count of reviews as Gordon_review_count.\
+What kinds of wine (variety) are available in the province (state) of Oregon? Show the distinct varieties in the results.\
+There are missing values in the fields price and region_1 in the table wine. Following the case-wise approach, write a query that will retrieve all the records from the wine table without any missing values in those two columns. Only show 10 records in the results.\
+We would like to assign wines to different groups so that we can describe wine varieties based on their prices. The wine varieties that cost 1-50 dollars (inclusive limits) will be in the group cheap, wines that are priced 50-100 (include the upper limit) will be labelled mid-priced, and wines priced more than 100 will be labelled expensive. Use the CASE statements to show the price groups and name the CASE column as price_groups. In the output table show province, variety, and price in addition to the CASE column. Show the first 15 records. Make sure that wines that are priced 0 do not show in the results.\
 Write a ranking SQL query that will rank the most expensive wine varieties in each province. Show the name of the ranked field as variety_ranking. Only show the first 15 records in the output table
